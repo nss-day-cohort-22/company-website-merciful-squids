@@ -1,0 +1,9 @@
+body, h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: black;
+    background-color: white; 
+}
+
+h1 {
+    font-size: 2em;
+}
