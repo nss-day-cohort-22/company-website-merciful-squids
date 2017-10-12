@@ -1,0 +1,17 @@
+body, h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 8px 8px 10px #aaa;   
+    margin: 10px;    
+  }
