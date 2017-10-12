@@ -1,4 +1,10 @@
 nav {
-    display: inline-flex;
+  background-color: gray;
+  font-size: 1em;
+  
 }
 
+
+ul {
+    display: inline;   
+}
