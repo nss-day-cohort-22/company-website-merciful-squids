@@ -1,0 +1,38 @@
+/* organize the sections into a flexbox container */
+.boxy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3 {
+    margin-bottom: 1px;
+}
+
+.address {
+    margin: 4px;
+    padding: 5px;
+    background-color: lightgray;
+    
+
+}
+
+.direct {
+    margin: 4px;
+    padding: 5px;    
+    background-color: lightcoral;
+    
+}
+
+.social {
+    margin: 4px;
+    padding: 5px;    
+    background-color: lightblue;
+    
+}
+
+.retailers {
+    margin: 4px;
+    padding: 5px;    
+    background-color: lightgreen;
+}
