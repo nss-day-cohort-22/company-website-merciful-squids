@@ -5,34 +5,35 @@
     justify-content: space-around;
 }
 
+.boxsize {
+    border: 5px solid black;
+    width: 40%;
+    margin: 4px;
+    text-align: center;
+}
+
 h3 {
     margin-bottom: 1px;
 }
 
-.address {
-    margin: 4px;
-    padding: 5px;
-    background-color: lightgray;
-    
+img {
+    display: block;
+    width: 40%;
+    margin: 0px auto 20px;
+}
 
+.address {
+    background-color: lightgray;
 }
 
 .direct {
-    margin: 4px;
-    padding: 5px;    
-    background-color: lightcoral;
-    
+    background-color: grey;   
 }
 
 .social {
-    margin: 4px;
-    padding: 5px;    
-    background-color: lightblue;
-    
+    background-color: lightgrey;  
 }
 
 .retailers {
-    margin: 4px;
-    padding: 5px;    
-    background-color: lightgreen;
+    background-color: grey;
 }

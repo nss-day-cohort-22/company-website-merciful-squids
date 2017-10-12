@@ -34,16 +34,16 @@ for (let contactKey in assembledContactMethods) {
     } else if (contactKey ==="social") {
             socialElement.innerHTML += `
             <section class = "${contactKey}">
-                <p>Twitter: ${assembledContactMethods.social.twitter}</p>
-                <p>FaceBook: ${assembledContactMethods.social.facebook}<br></p>
+                <p>Twitter: <a href=${assembledContactMethods.social.twitter}>${assembledContactMethods.social.twitter}</a></p>
+                <p>FaceBook: <a href=${assembledContactMethods.social.facebook}>${assembledContactMethods.social.facebook}</a><br></p>
             </section>
             `
     } else {
             retailerElement.innerHTML += `
             <section class = "${contactKey}">
-                <p>Amazon: ${assembledContactMethods.retailers.amazon}</p>
+                <p>Amazon: <a href=${assembledContactMethods.retailers.amazon}>${assembledContactMethods.retailers.amazon}</a></p>
                 <p>iWare House: ${assembledContactMethods.retailers.iWareHouse}</p>
-                <p>In Specs: ${assembledContactMethods.retailers.inSpecs}</p>
+                <p>In Specs: <a href=${assembledContactMethods.retailers.inSpecs}>${assembledContactMethods.retailers.inSpecs}</a></p>
             </section>
             ` 
     }
