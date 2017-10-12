@@ -1,49 +1,49 @@
-
-// NAME, PICTURE, TYPE, PRICE, AVAILIBILTY, COLOR
-
-
-let prestige = {
-    "name": 'The Prestige',
-    "picture": 'xxxxxxxxxxxx',
-    "type": 'Sunglasses',    
-    "price": '$280.00',
-    "availibilty": 'In Stock',
-    "color": 'Monster Green'
-  }
+//Database entries for use with products-controller.js
+// NAME, PICTURE, TYPE, PRICE, availibility, COLOR
+//Stringified and stored below
 
   let readers = {
     "name": 'The Readers',
-    "picture": 'xxxxxxxxxxxx',
+    "picture": './images/readers.jpg',
     "type": 'Reading Glasses',    
     "price": '$100.00',
-    "availibilty": 'In Stock',
+    "availibility": 'In Stock',
     "color": 'Jade Green'
+  }
+
+let prestige = {
+    "name": 'The Prestige',
+    "picture": './images/prestige.jpg',
+    "type": 'Sunglasses',    
+    "price": '$280.00',
+    "availibility": 'In Stock',
+    "color": 'Monster Green'
   }
 
   let xpands = {
     "name": 'The XPands',
-    "picture": 'xxxxxxxxxxxx',
+    "picture": './images/xpand.jpg',
     "type": '3d Sunglasses',    
     "price": '$420.00',
-    "availibilty": 'Under 5 left',
+    "availibility": 'Under 5 left',
     "color": 'Salmon Salmon'
   }
 
   let shutter = {
     "name": 'The Shutters',
-    "picture": 'xxxxxxxxxxxx',
+    "picture": './images/shutter.jpg',
     "type": 'Precision 3d Viewing',    
     "price": '$2,000.00',
-    "availibilty": 'In Stock',
+    "availibility": 'In Stock',
     "color": 'Expensive Black'
   }
-
+//yet to be plugged products
   // let xxxx = {
   //   "name": '',
   //   "picture": '',
   //   "type": '',    
   //   "price": '$',
-  //   "availibilty": '',
+  //   "availibility": '',
   //   "color": ''
   // }
 
@@ -52,21 +52,21 @@ let prestige = {
   //   "picture": '',
   //   "type": '',    
   //   "price": '',
-  //   "availibilty": '',
+  //   "availibility": '',
   //   "color": ''
   // }
 
+//taking data arrays and storing it into another array variable
 
+let name = [readers, prestige, xpands, shutter]
+// let xxx = [xxxxx, xxxxx]
+// let xxx = [xxxxx, xxxxx]
 
-let xxx = [xxxxx, xxxxx]
-let xxx = [xxxxx, xxxxx]
-let xxx = [xxxxx, xxxxx]
-
+// storing those arrays in one variable creating our Database
 let glasses = {
-  "xxxxx": xxxxxxx,
-  "okay": okay,
-  "fun": fun
+  "name": name
 }
 
+//Stringifying the Database to be stored in our browser for use by the controller file.
 const glassesString = JSON.stringify(glasses)
 localStorage.setItem("glasses", glassesString)
