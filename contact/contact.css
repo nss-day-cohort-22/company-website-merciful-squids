@@ -1,0 +1,39 @@
+/* organize the sections into a flexbox container */
+.boxy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boxsize {
+    border: 5px solid black;
+    width: 40%;
+    margin: 4px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 1px;
+}
+
+img {
+    display: block;
+    width: 40%;
+    margin: 0px auto 20px;
+}
+
+.address {
+    background-color: lightgray;
+}
+
+.direct {
+    background-color: grey;   
+}
+
+.social {
+    background-color: lightgrey;  
+}
+
+.retailers {
+    background-color: grey;
+}
