@@ -1,0 +1,31 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid gray;
+    background: rgb(247, 246, 221);
+    height: 75px;
+}
+
+ul.footer {
+    list-style-type: none;
+    text-align: center;   
+
+}
+
+li.flink {
+    display: inline-block;
+    margin: 1% 2.5%;
+    height: 16px;
+}
+
+img.icon {
+    box-shadow: 0px;
+    box-shadow: 0px 0px 0px rgba(170, 170, 170, 0);
+    width: 32px;
+  }
