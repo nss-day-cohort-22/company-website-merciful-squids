@@ -16,11 +16,13 @@ let homeContentsObject=JSON.parse(homeContentsStringified)
 const contents=document.getElementsByClassName("contents")[0]
 
 
+
+
 for (let key in homeContentsObject){
     const currentContent=homeContentsObject[key]
     console.log(currentContent)
     contents.innerHTML += `
-    <section>
+    <section class="text">
         <h2>${currentContent.title}</h2>
         <p>${currentContent.text}</p>
     </section> 
@@ -28,6 +30,15 @@ for (let key in homeContentsObject){
     `
 }
 
+const homeGlassesImageStringified=localStorage.getItem("homeImage")
+let homeGlassesObject=JSON.parse(homeGlassesImageStringified)
+const glassesImage=document.getElementsByClassName("glassesImage")[0]
+
+glassesImage.innerHTML += ` 
+ 
+<img src="${homeGlassesObject.homeImage}">
+
+`
 
 
 

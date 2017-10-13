@@ -5,21 +5,30 @@ const homeDatabase= {
 
 }
 
+const homeGlassesImage= {
+  "homeImage": "homeGlassesImage.png"
+}
+
+
 const culture = {
-"text": "Here at Looksie we're a group of developers who have a passion to spread our fashion-forward spectacular spectacles on to you.",
+"text": "Here at <b>Looksie</b> we are a group of developers who have a passion to spread our fashion-forward <b>spectacular</b> spectacles on to you.",
 "title": "Our Culture"
 }
 
 
 const mission = {
-"text": "To increase our profit margins at a steady growth rate of 99% profit gain on a monthly basis. aka: to get rich off your poor eyesight",
+"text": "To increase our profit margins at a steady growth rate of 99% profit gain on a monthly basis. aka: <b>to get rich</b> off your poor eyesight.",
 "title": "Our Mission"
 }
 
 const homeContents = {
   "culture": culture,
-  "mission": mission    
+  "mission": mission,    
 }
+  
+  
+
+
 
 
 
@@ -29,5 +38,7 @@ localStorage.setItem("homeDatabase", homeDatabaseString)
 const homeContentsString = JSON.stringify(homeContents) 
 localStorage.setItem("contentsHome", homeContentsString)
 
+const homeGlassesImageString = JSON.stringify(homeGlassesImage)
+localStorage.setItem("homeImage",homeGlassesImageString)
 
 //factory to set the data
